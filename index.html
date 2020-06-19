@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Ping coming soon page</title>
+    <script src="script.js" async></script>
+    <script src="https://kit.fontawesome.com/a0dc3e582b.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header> <!-- PAGE HEADER -->
+      <figure class="header-logo">
+        <img src="images/logo.svg" alt="Ping logo">
+      </figure>
+    </header>
+
+    <main> <!-- MAIN CONTENT -->
+      <section class="main-content">
+        <h1><span class="launch">We are launching</span> soon!</h1>
+        <h5>Subscribe and get notified</h5>
+
+        <form action="/submit.php" method="POST">
+          <input id="email-field" name="email" type="email" placeholder="Your email address...">
+          <p class="error-message">Whoops! Looks like you forgot to add your email</p>
+
+          <div class="notify-btn">
+            <button id="submit-btn" type="submit">Notify Me</button>
+          </div>
+        </form>
+
+        <figure class="dashboard">
+          <img src="images/illustration-dashboard.png" alt="Ping illustration dashboard">
+        </figure>
+      </section>
+    </main>
+
+    <footer> <!-- PAGE FOOTER -->
+      <section>
+        <div class="social-media"> <!-- SOCIAL MEDIA -->
+          <div>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          </div>
+    
+          <div>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>   
+          </div>
+    
+          <div>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy Copyright Ping 2020. All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
