@@ -3,3 +3,204 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    width: 100vw;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Libre Franklin", sans-serif;
+    color: hsl(209, 33%, 12%);
+    text-align: center;
+}
+  
+/* PAGE HEADER */
+.header-logo {
+    display: flex;
+    justify-content: center;
+}
+  
+/* MAIN CONTENT */
+.main-content {
+    line-height: 0.8;
+}
+  
+.main-content h5 {
+    font-weight: 300;
+}
+  
+.launch {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+  
+.main-content form {
+    display: flex;
+    justify-content: center;
+} 
+  
+.email-field {
+    width: 350px;
+    height: 45px;
+    padding-left: 20px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: "Libre Franklin", sans-serif;
+    outline: none;
+}
+  
+.email-field:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+  
+.success {
+    border: 1px solid hsl(76, 78%, 45%);
+    background-color: hsla(76, 78%, 45%, .3);;
+}
+  
+.failed {
+    border: 1px solid hsl(354, 100%, 66%);
+    background-color: hsla(354, 100%, 66%, .3);
+}
+  
+.error-txt {
+    color: hsl(354, 100%, 66%);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+  
+.success-txt {
+    color: hsl(76, 78%, 45%);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+  
+#submit-btn {
+    width: 170px;
+    height: 45px;
+    margin-left: 8%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Libre Franklin", sans-serif;
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(223, 87%, 63%);
+    box-shadow: 2px 5px 10px hsla(257, 40%, 9%, .2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+#submit-btn:hover {
+    background-color: hsl(223, 100%, 88%);
+}
+  
+::placeholder { /* Support for Chrome, Firefox, Opera, Safari 10.1+ */
+    color: hsl(0, 0%, 75%);
+    font-size: 14px;
+}
+  
+:-ms-input-placeholder { /* Support for Internet Explorer 10-11 */
+    color: hsl(0, 0%, 75%);
+    font-size: 14px;
+}
+  
+::-ms-input-placeholder { /* Support for Microsoft Edge */
+    color: hsl(0, 0%, 75%);
+    font-size: 14px;
+}
+  
+.dashboard img {
+    width: 550px;
+}
+  
+/* PAGE FOOTER */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+/* SOCIAL MEDIA */
+.social-media {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+  
+.social-media div {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    font-size: 1.1rem;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 100%;
+    transition: 0.2s;
+}
+  
+.social-media div a {
+    color: hsl(223, 87%, 63%);
+}
+  
+.social-media div:hover {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: hsl(223, 87%, 63%);
+}
+  
+.social-media div a:hover {
+    color: hsl(0, 0%, 100%);
+}
+  
+.copyright p {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.8rem;
+}
+  
+/* Any devices, 1200px and below*/
+@media only screen and (max-width: 1200px) {
+    /* MAIN CONTENT */
+    .main-content h1 {
+      font-size: 1.7rem;
+    }
+    
+    .main-content h5 {
+      font-size: 1rem;
+    }
+    
+    .main-content form {
+      margin-top: 10%;
+      flex-direction: column;
+    }
+    
+    #submit-btn {
+      width: 350px;
+      margin-left: 0;
+    }
+    
+    .dashboard {
+      margin-top: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .dashboard img {
+      width: 350px;
+    }
+    
+     /* PAGE FOOTER */
+    footer {
+      margin-top: 30%;
+    }
+}
