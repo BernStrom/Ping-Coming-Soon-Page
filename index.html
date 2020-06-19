@@ -14,7 +14,7 @@
   <body>
     <header> <!-- PAGE HEADER -->
       <figure class="header-logo">
-        <img src="images/logo.svg" alt="Ping logo">
+        <img src="images/logo.svg" alt="Ping logo" id="image">
       </figure>
     </header>
 
@@ -24,8 +24,10 @@
         <h5>Subscribe and get notified</h5>
 
         <form action="/submit.php" method="POST">
-          <input id="email-field" name="email" type="email" placeholder="Your email address...">
-          <p class="error-message">Whoops! Looks like you forgot to add your email</p>
+          <div>
+            <input id="email-field" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your email address...">
+            <p class="error-message success-message"></p>
+          </div>
 
           <div class="notify-btn">
             <button id="submit-btn" type="submit">Notify Me</button>
@@ -39,7 +41,7 @@
     </main>
 
     <footer> <!-- PAGE FOOTER -->
-      <section>
+      <section class="footer-content">
         <div class="social-media"> <!-- SOCIAL MEDIA -->
           <div>
             <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
