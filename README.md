@@ -52,7 +52,7 @@ _P.S:_ _**Hover state features is not applicable on touchscreen devices, as it i
 ![Page preview on iPhone 11](./screenshots/iPhone-11_(414x896).png)
 </ hr>
 
-#### Tablet (iPad Pro 11 @ 834 x 1194)
+#### Tablet w/ device frame (iPad Pro 11 @ 834 x 1194)
 ![Page preview on iPad Pro 11](./screenshots/iPad-Pro-11_(834x1194).png)
 <hr />
 
