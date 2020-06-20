@@ -24,9 +24,9 @@ This project was obtained from a list of challenges by Frontend Mentor.
 
 * Use JavaScript to validate the input of the email form and display the appropiate message.
 
-* Keep the code as clean as possible.
+* Hover states for all interactive elements of the page
 
-* Not explicitly required, but hover state features have been added to the navigation menu, submit buttons and social media icons for extra legitimacy effect. Additionally, focus effects are also added to the input fields of the page.
+* Keep the code as clean as possible.
 
 And don't forget the core of it all, _**Happy coding!🚀**_
 
