@@ -58,3 +58,7 @@ _P.S:_ _**Hover state features is not applicable on touchscreen devices, as it i
 
 #### PC / Laptop (Deskktop @ 1920 x 1080)
 ![Page preview on Desktop](./screenshots/Desktop_(1920x1080).png)
+<hr />
+
+## License :bookmark_tabs:
+This project is under License MIT. For more information, please refer to the documentation [LICENSE](LICENSE.md).
