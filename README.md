@@ -61,4 +61,4 @@ _P.S:_ _**Hover state features is not applicable on touchscreen devices, as it i
 <hr />
 
 ## License :bookmark_tabs:
-This project is under License MIT. For more information, please refer to the documentation [LICENSE](LICENSE.md).
+This project is under the MIT License. For more information, please refer to the license [documentation](LICENSE.md).
