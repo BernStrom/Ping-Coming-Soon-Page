@@ -1,3 +1,11 @@
+<p align="center">
+  <a href="#-Introduction">Introduction</a>
+  <a href="#-Objectives-of-the-project">Project Objectives</a>
+  <a href="#-Technical-componets">Technical Components</a>
+  <a href="#-Attribution">Attribution</a>
+  <a href="#-License">License</a>
+</p>
+
 ## Ping coming soon page
 
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
