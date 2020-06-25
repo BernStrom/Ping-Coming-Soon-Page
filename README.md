@@ -60,5 +60,5 @@ _P.S:_ _**Hover state features is not applicable on touchscreen devices, as it i
 ![Page preview on Desktop](./screenshots/Desktop_(1920x1080).png)
 <hr />
 
-## License :bookmark_tabs:
+## License :memo:
 This project is under the MIT License. For more information, please refer to the license [documentation](LICENSE.md).
