@@ -31,7 +31,7 @@ This project was obtained from a list of challenges by Frontend Mentor.
 
 * Use responsive design to make the page compatible on screen across mobile and desktop devices.
 
-* Use JavaScript to validate the input of the email form and display the appropiate error/success message.
+* Use JavaScript to validate the input of the email form and display the appropriate error/success message.
 
 * Hover states for all interactive elements of the page
 
