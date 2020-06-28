@@ -23,7 +23,7 @@ The Ping Coming Soon Page is a project for practicing website layout, responsive
 
 This project was obtained from a list of challenges by Frontend Mentor.
 
-## Objectives of the project
+## :pushpin: Objectives of the project
 
 * Use semantic HTML5 markup. *Manage code readability, accessibility and SEO optimization of web page.*
 
